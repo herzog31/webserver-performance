@@ -6,7 +6,6 @@ docker build -t python-web python/ > /dev/null
 docker build -t go-web go/ > /dev/null
 docker build -t php-web php/ > /dev/null
 docker build -t hhvm-web hhvm/ > /dev/null
-docker build -t wrk wrk/ > /dev/null
 
 echo "--- Start container ---"
 docker run -d -p 3000:80 --name node-web node-web
