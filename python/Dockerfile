@@ -1,0 +1,5 @@
+FROM python:3.4.3-onbuild
+
+CMD ["python", "./index.py"]
+
+EXPOSE 4000
