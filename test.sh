@@ -1,8 +1,8 @@
 #!/bin/sh
 
-container_ip="localhost"
+container_ip="46.101.179.199"
 connections=64
-duration="5s"
+duration="30s"
 
 echo "--- Build container ---"
 docker build -t wrk wrk/ > /dev/null
