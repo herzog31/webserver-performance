@@ -14,6 +14,6 @@ application = tornado.web.Application([
 
 if __name__ == "__main__":
     server = HTTPServer(application)
-    server.bind(4000)
+    server.bind(80)
     server.start(1)
     IOLoop.instance().start()
